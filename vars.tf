@@ -4,11 +4,11 @@ variable "AWS_REGION" {
 
 # Keys will be used by ansible for Instance Configuration
 variable "PATH_TO_PRIVATE_KEY" {
-  default = "mykey"
+  default = "~/.ssh/mykey"
 }
 
 variable "PATH_TO_PUBLIC_KEY" {
-  default = "mykey.pub"
+  default = "~/.ssh/mykey.pub"
 }
 
 #Image available for the region selected

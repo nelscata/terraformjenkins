@@ -10,9 +10,4 @@ resource "aws_instance" "jenkins_demo" {
 
   # the public SSH key
   key_name = aws_key_pair.mykeypair.key_name
-
-  tags {
-    Name = "Jenkins Demo"
-  }
-
 }
